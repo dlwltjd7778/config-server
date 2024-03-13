@@ -1,0 +1,9 @@
+com:
+  jiseong:
+    config-test: TEST-SVC-3
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans
