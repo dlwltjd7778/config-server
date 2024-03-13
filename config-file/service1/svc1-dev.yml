@@ -1,6 +1,6 @@
 com:
   jiseong:
-    config-test: test!4
+    config-test: test!5
 
 management:
   endpoints:
