@@ -8,6 +8,7 @@ management:
       exposure:
         include: refresh, health, beans, busrefresh
 
+# config 설정 변경 시 fetch를 위한 래빗Mq 설정 (busrefresh)
 spring:
   rabbitmq:
     host: 127.0.0.1
