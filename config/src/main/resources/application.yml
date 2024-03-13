@@ -10,3 +10,15 @@ spring:
           uri: https://github.com/dlwltjd7778/config-server  # 설정파일이 있는 깃주소
           default-label: main                               # 해당 브랜치명
           search-paths: config-file/**                        # 설정파일 경로
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, httptrace, busrefresh
+
